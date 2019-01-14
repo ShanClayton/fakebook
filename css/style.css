@@ -13,6 +13,7 @@
   --white: #fff;
   --spring-green: #1DEB83;
 }
+
  /* GENERAL */
 * {
   box-sizing: border-box;
@@ -165,5 +166,33 @@ header a {
 
 #top-area .profile-info .user-details a:hover {
   background: var(--neon-pink);
+}
 
+/*  CONTENT AREA  */
+#content-area {
+
+}
+
+#content-area .side-bar {
+ width: 35%;
+ margin: 0 2.5%;
+ float: left;
+}
+
+#content-area .main-area {
+ width: 55%;
+ margin: 0 2.5%;
+ float: left;
+}
+
+/* WIDGET BOX PHOTOS  */
+.nine-photos {
+  display: inline-block;
+  float: left;
+  height: 110px;
+  width: 33.3%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
