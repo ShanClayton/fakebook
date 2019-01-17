@@ -1,4 +1,4 @@
 # Fakebook
 Mockup of social media page
 
-![fakebook](https://user-images.githubusercontent.com/25889133/51301809-5a9db180-19e5-11e9-97ff-848deafef52e.png)
+![_fakebook](https://user-images.githubusercontent.com/25889133/51302851-79ea0e00-19e8-11e9-9c79-82a304d9318d.png)
