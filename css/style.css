@@ -14,6 +14,8 @@
   --spring-green: #1DEB83;
   --light-grey: #FAFAFA;
   --grey: #BFBFBF;
+  --darker-grey: #ABABAB;
+  --silver: #E0E0E0;
 }
 
  /* GENERAL */
@@ -61,6 +63,11 @@ header a {
   font-size: 16px;
 }
 
+.top-photo {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+}
 .menu {
   display: inline-block;
   width: 20%;
@@ -244,4 +251,232 @@ font-size: 23px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* MIDDLE CONTENT AREA */
+
+#content-area .widget-box .body {
+  padding: 20px 0;
+}
+
+#content-area .main-area {
+  float:left;
+  width: 55%;
+  margin: 0 2.5%;
+}
+
+#content-area .main-area .widget-box.submenu {
+  padding: 0;
+  margin: 0;
+  margin: 0 0 20px 0;
+}
+
+#content-area .main-area .submenu ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+#content-area .main-area .submenu ul li{
+  display: inline-block;
+  padding: 10px;
+  width: 20%;
+  float: left;
+  text-align: center;
+  border-bottom: 3px solid var(--white);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+#content-area .main-area .submenu ul li:hover{
+  border-bottom: 3px solid var(--blueberry);
+  color: var(--neon-pink);
+}
+
+#content-area .main-area .submenu ul li:nth-child(5){
+  padding: 28px 0 21px;
+}
+
+#content-area .main-area .submenu ul li .fa{
+  font-size: 20px;
+}
+
+#content-area .main-area .submenu ul li span{
+  display: block;
+  margin: 15px 0 0 0;
+  font-size: 12px;
+}
+
+#content-area .main-area .widget-box.post {
+  overflow: auto;
+}
+
+#content-area .main-area .widget-box.post .head .user-img-container {
+  width: 8%;
+  display: inline-block;
+  overflow: auto;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .head{
+  margin: 0 0 15px 0;
+}
+
+#content-area .main-area .widget-box.post .head .user-img{
+  display: inline-block;
+  background: url(http://buzz.bournemouth.ac.uk/wp-content/uploads/2017/12/1024px-Dress_Klashorst-cropped-edit.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  float: left;
+  border-radius: 50%;
+  margin: 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info{
+  display: inline-block;
+  float: left;
+  width: 92%
+}
+
+#content-area .main-area .widget-box.post .head::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+  display: block;
+  font-size: 14px;
+  margin: 4px; 0 6px 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .post-date{
+  display: block;
+  font-size: 12px;
+  margin: 0 0 0 5px;
+  color: var(--darker-grey);
+}
+
+#content-area .main-area .widget-box.post .body{
+  padding: 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-img img{
+  width: 100%;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons{
+  width: 100%;
+  padding: 0 0 15px 0;
+  color: var(--darker-grey);
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa{
+  font-size: 20px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-up{
+  margin-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons span{
+  float: right;
+  display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments{
+  background: var(--silver);
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img{
+  width: 8%;
+  display: inline-block;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment{
+  display: inline-block;
+  float: left;
+  width: 91%;
+  margin-left: 3px;
+  font-size: 12px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-info{
+  margin: 10px 0 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form{
+  padding: 15px 0 0 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img{
+  width: 8%;
+  display: inline-block;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-form::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info{
+  display: inline-block;
+  float: left;
+  width: 92%;
+  font-size: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--darker-grey);
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input{
+  width: 80%;
+  border: 0 solid var(--white);
+  outline: none;
+  font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input::focus{
+  width: 80%;
+  border: 0 solid var(--white);
+  font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons{
+  display: inline-block;
+  float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons{
+  font-size: 20px;
+  margin-right: 0 15px 0 0;
 }
