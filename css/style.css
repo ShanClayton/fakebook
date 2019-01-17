@@ -1,5 +1,5 @@
 /* FONTS */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 /* COLORS */
 :root {
   --maya blue: #5AC7FE;
@@ -24,11 +24,12 @@
 }
 
 html {
-  font-family: sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: var(--toolbox);
 }
 
 /* TOP HEADER  */
@@ -178,6 +179,13 @@ header a {
 }
 
 /*  CONTENT AREA  */
+.city-info {
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
 #content-area {
 background: var(--light-grey);
 overflow: auto;
@@ -235,6 +243,8 @@ font-size: 23px;
 #content-area .widget-box .head .widget-title {
   display: inline-block;
   padding: 0 0 0 10px;
+  font-size: bold;
+  color: var(--black);
 }
 
 #content-area .widget-box .body {
