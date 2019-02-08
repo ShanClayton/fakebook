@@ -1,5 +1,5 @@
 # Fakebook
-<<<<<<< HEAD
+
 # rockpaperscissors
 =======
 Mockup of social media page
@@ -7,4 +7,4 @@ Mockup of social media page
 ![_fakebook](https://user-images.githubusercontent.com/25889133/51302851-79ea0e00-19e8-11e9-9c79-82a304d9318d.png)
 
 Photo Credit: unsplash
->>>>>>> efddacc3bdb6c1be26cdcc936641701557b387b2
+
