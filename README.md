@@ -1,6 +1,5 @@
 # Fakebook
 
-# rockpaperscissors
 
 Mockup of social media page
 
